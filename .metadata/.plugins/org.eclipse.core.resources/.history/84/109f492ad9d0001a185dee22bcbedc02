@@ -1,0 +1,15 @@
+package com.example.prabhash.demoproject.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@RequestMapping("/home")
+public class Sample {
+	
+	@GetMapping("/name")
+	public String getName() {
+		
+		return "Hello Prabhash";
+	}
+
+}
