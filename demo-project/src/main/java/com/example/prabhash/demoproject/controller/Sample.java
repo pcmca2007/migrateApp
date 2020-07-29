@@ -10,7 +10,7 @@ public class Sample {
 	@GetMapping("/")
 	public String index() {
 		
-		return "Hello Prabhash";
+		return "Hello Prabhash how are you";
 	}
 
 }
